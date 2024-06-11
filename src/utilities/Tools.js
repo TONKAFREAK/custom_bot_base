@@ -12,7 +12,7 @@ function getModeration() {
         // console.log("Moderation data loaded:", data);
     } catch (error) {
         // console.error(`Could not load moderation data: ${error.message}`);
-        return false; // Default to false if data cannot be read
+        return false; 
     }
 
     return data.trim().toLowerCase() === 'on';
